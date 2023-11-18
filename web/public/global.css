@@ -1,13 +1,15 @@
+
+
 :root {
-    --clr-primary: #393A45;
-    --clr-primary-light: #393A45;
+    --clr-primary: #171717;
+    --clr-primary-light: #111111;
     --clr-primary-dark: transparant;
 
     --clr-green: #34b8a8;
     --clr-orange: #e08c2b;
     --clr-grey: #505050;
 
-    --font-family: "Roboto", sans-serif;
+    --font-family: Apercu Pro;
 }
 
 * {
@@ -79,16 +81,13 @@ h3.heading {
 }
 
 .btn-grey:is(:hover, :focus, :focus-within) {
-    background-color: #000;
-    color: var(--clr-grey);
+    background-color: #626262;
 }
 .btn-orange:is(:hover, :focus, :focus-within) {
-    background-color: #000;
-    color: var(--clr-orange);
+    background-color: #BC874B;
 }
 .btn-green:is(:hover, :focus, :focus-within) {
-    background-color: #000;
-    color: var(--clr-green);
+    background-color: #50A399;
 }
 
 .scroller {
